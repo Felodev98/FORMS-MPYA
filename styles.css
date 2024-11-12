@@ -1,0 +1,16 @@
+.head{ display:block; }
+.box-1{
+	height: 50px;
+	width: 100px;
+	background-color: black;
+	z-index: 700;
+	position: relative;
+}
+.box-2
+{
+height: 100px;	
+width: 200px;
+background-color: skyblue;
+z-index: 800;
+position: absolute;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hello</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Reg Form</h1>
+<header>
+<form>
+	<fieldset>
+<legend>Student details</legend>
+<label for=" First Name">First Name</label>
+<input type="text" name="First Name" id="First Name" autocomplete="on" required autofocus placeholder="Jane">
+<label for="Second Name">Second Name</label>
+<input type="text" name="Second Name" id="Second Name" autocomplete="on" required placeholder="Doe">
+<label for="Last Name">Last Name</label>
+<input type="text" name="Last Name" id="Last Name" autocomplete="on" required placeholder="Smith">
+<p>Gender</p>
+<label for="Gender">Gender</label>
+<select name="Gender">
+	<option value="male">Male</option>
+	<option value="female" selected>Female</option>
+	<option value="intersex">Intersex</option>
+</select>
+<p>Contact Details</p>
+<label for="email address">email address</label>
+<input type="text" name="address" id="address" placeholder="abx@gmail.com">
+<label for="contact">contact</label>
+<input type="tel" name="phone number" id="phone number" placeholder="0717240826" pattern="[0-9{4}[0-9]{3}[0-9]{3}">
+</fieldset>
+<fieldset>
+	<legend>Account Details</legend>
+	<p>Account Details</p>
+	<label for="accout number">account number</label>
+	<input type="number" name="">
+</fieldset>
+<fieldset>
+	<legend>Preference</legend>
+	<p>Preferred contact method</p>
+	<label for="Email">Email</label>
+	<input type="radio" id="Email">
+<label for="phone">Phone</label>
+	<input type="radio" id="Phone">
+
+</fieldset>
+</form>
+<div>
+<div class="box-1"></div>
+<div class="box-2"></div>
+</div>
+</header>
+</body>
+</html>
