@@ -9,7 +9,7 @@
 <body>
 <h1>Reg Form</h1>
 <header>
-<form>
+<form action="https://httpbin.org/get" method="get" >
 	<fieldset>
 <legend>Student details</legend>
 <label for=" First Name">First Name</label>
@@ -29,7 +29,7 @@
 <label for="email address">email address</label>
 <input type="text" name="address" id="address" placeholder="abx@gmail.com">
 <label for="contact">contact</label>
-<input type="tel" name="phone number" id="phone number" placeholder="0717240826" pattern="[0-9{4}[0-9]{3}[0-9]{3}">
+<input type="tel" name="phone number" id="phone number" placeholder="0717240826" pattern="[0-9{4}-[0-9]{3}-[0-9]{3}">
 </fieldset>
 <fieldset>
 	<legend>Account Details</legend>
@@ -41,10 +41,24 @@
 	<legend>Preference</legend>
 	<p>Preferred contact method</p>
 	<label for="Email">Email</label>
-	<input type="radio" id="Email">
+	<input type="radio" id="contact" name="contact">
 <label for="phone">Phone</label>
-	<input type="radio" id="Phone">
-
+	<input type="radio" id="contact" name="contact">
+</fieldset>
+<fieldset>
+	<p>
+		<input type="checkbox" name="Do you want to receive promotional Email">Do you want to receive promotional Email
+	</p>
+</fieldset>
+<br>
+<fieldset>
+	<legend>Send us A Message</legend>
+	<label for="Message">Your Message</label>
+	<br>
+	<textarea name="Message" id="Message" cols="30" rows="10" placeholder="Type your Message here"></textarea>
+	<br>
+	<button type="Submit">Submit</button>
+	<button type="reset">reset</button>
 </fieldset>
 </form>
 <div>
